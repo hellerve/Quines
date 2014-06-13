@@ -16,7 +16,7 @@ Usage
 -----
 
 To make things easier for you, i've provided a Makefile. Just hack in `make` and dive
-into the directory. The scripts I have provided all follow the naming convention 
+into the `bin`directory. The scripts I have provided all follow the naming convention 
 `quine_PROGRAMMINGLANGUAGE` and are directly executable, except the F# version, which
 is a pain to run on Unix. For all you F# noobs(I know I am), a quick way to make
 this as painless as possible:
