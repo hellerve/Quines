@@ -9,6 +9,7 @@ all:
 	cp src/quine.pl bin/quine_perl
 	cp src/quine.rb bin/quine_ruby
 	cp src/quine.fs bin/quine_fsharp
+	cp src/quine.js bin/quine_node
 
 clean:
 	rm -r bin
