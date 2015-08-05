@@ -15,6 +15,7 @@ all:
 	cp src/quine.rb bin/quine_ruby
 	cp src/quine.fs bin/quine_fsharp
 	cp src/quine.js bin/quine_node
+	cp src/quine.sh bin/quine_shell
 
 clean:
 	rm -r bin

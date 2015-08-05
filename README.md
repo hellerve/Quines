@@ -35,3 +35,5 @@ java -cp bin/quine_java.jar Q
 ```
 
 And you're good to go.
+
+The shell quine is at least compatible with zsh and bash.
