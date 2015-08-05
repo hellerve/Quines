@@ -1,7 +1,8 @@
 all:
-	mkdir bin
+	mkdir -p bin
 	gcc src/quine.c -o bin/quine_c
 	ghc src/quine.hs -o bin/quine_haskell
+	go build -o bin/quine_go src/quine.go
 	rm src/quine.o src/quine.hi
 	cp src/quine.scm bin/quine_scheme
 	cp src/quine.py bin/quine_python
