@@ -2,7 +2,7 @@
 %% -*- erlang -*-
 
 quine(Source) -> 
-    io:format(Source ++ [$(,34] ++ Source ++ [34,$),$.]),
+    io:format(Source ++ [$(,34] ++ Source ++ [34,$),$.,$\n]),
     halt().
     
 main(_) ->
@@ -10,7 +10,7 @@ main(_) ->
 -export([start/0]).
 
 quine(Source) -> 
-    io:format(Source ++ [$(,34] ++ Source ++ [34,$),$.]),
+    io:format(Source ++ [$(,34] ++ Source ++ [34,$),$.,$\\n]),
     halt().
     
 make_quine() ->

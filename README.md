@@ -17,9 +17,9 @@ Usage
 
 To make things easier for you, i've provided a Makefile. Just hack in `make` and dive
 into the `bin`directory. The scripts I have provided all follow the naming convention 
-`quine_PROGRAMMINGLANGUAGE` and are directly executable, except the F# version, which
-is a pain to run on Unix. For all you F# noobs(I know I am), a quick way to make
-this as painless as possible:
+`quine_PROGRAMMINGLANGUAGE` and are directly executable, except the Java and the F# versions,
+the latter of which is a pain to run on Unix. For all you F# noobs(I know I am), a quick way
+to make this as painless as possible:
 
 ```
 fsharpi --use:quine_fsharp --quiet
@@ -27,3 +27,11 @@ fsharpi --use:quine_fsharp --quiet
 
 But this will keep the interpreter alive. To exit it, type `#quit;;`(not very 
 intuitive, I know).
+
+I was too lazy to create a manifest file for the java version, so you will have to run:
+
+```
+java -cp bin/quine_java.jar Q
+```
+
+And you're good to go.
